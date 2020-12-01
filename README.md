@@ -1,12 +1,12 @@
-#Pokemon App
+# Pokemon App
 
-#Used technologies
+## Used technologies
 
 - React.js
 - Sass
 - Axios
 
-#Start application
+## Start application
 Move to the root directory where the package.json exists and type:
 
 ```bash
@@ -22,7 +22,7 @@ npm start
 
 That command will run app.
 
-#Example of usage
+## Example of usage
 
 <p align="center">
 <img class="card-img-top" src="./pres/1.gif" alt="pres 1">
