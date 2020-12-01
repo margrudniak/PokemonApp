@@ -1,0 +1,35 @@
+@import "./variables.scss";
+
+.button {
+  background-color: $button-color;
+  border: none;
+  color: white;
+  min-width: 94px;
+  min-height: 42px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  text-decoration: none;
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: #000;
+  }
+}
+.button-first {
+  background-color: transparent;
+  color: $button-color;
+  font-weight: bold;
+}
+.button-second {
+  background: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: $button-color;
+  font-weight: bold;
+  border: 2px solid $button-color;
+}
